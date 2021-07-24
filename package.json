@@ -10,8 +10,8 @@
     "dev-server": "webpack-dev-server --mode development --port 4000 --open",
     "json-server": "json-server --port 3000 --watch db.json --delay 1000",
     "http-server": "http-server dist",
-    "start": "concurrently \"npm:dev-server\" \"npm:json-server\"",
-    "hj-servers": "concurrently \"npm:http-server\" \"npm:json-server\""
+    "start:dev": "concurrently \"npm:dev-server\" \"npm:json-server\"",
+    "start": "concurrently \"npm:http-server\" \"npm:json-server\""
   },
   "keywords": [],
   "author": "Sukhorukov Ruslan <suhrugen@gmail.com>",
